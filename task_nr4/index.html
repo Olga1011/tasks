@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>Apply relative position</h2>
+    <div class="relative">
+      <h3>First element</h3>
+      <p>
+        I am moved left to 50px from static position<br />
+        My sizes are following:<br />
+        {width:500px; height: 250px;} <br />
+        My border radius: <br />
+        {border-radius: 10px;}
+      </p>
+    </div>
+    <div class="static">
+      <h3>Second element</h3>
+      <p>
+        I am with static position by default <br />
+        My sizes are the following: <br />
+        {width: 600px; height: 250px;} <br />
+        My border-radius: <br />
+        {border-radius: 20px}
+      </p>
+    </div>
+    <h2>Apply absolute position</h2>
+    <div class="relative_parent">
+      <h3>I am parent with relative position</h3>
+      <p>
+        My sizes are the following: <br />
+        {width: 1000px; height: 200px}
+      </p>
+      <div class="child">
+        <h3>I am a child element with absolute position, top and right 10px</h3>
+        <p>
+          My sizes are following: <br />
+          {width:410px; height: 150px}
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

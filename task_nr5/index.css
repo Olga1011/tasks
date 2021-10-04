@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.orange {
+  background-color: orange;
+  display: inline-block;
+}
+
+.img-div {
+  width: 500px;
+  height: 400px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.aquamarine {
+  background-color: lightblue;
+  width: 100%;
+  height: 70px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  background-color: rgb(247, 239, 229);
+}
+
+.sidebar {
+  background-color: crimson;
+  width: 200px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+.footer {
+  background-color: lightblue;
+}
+
+.description {
+  background-color: lightblue;
+  padding: 30px;
+  width: 33.33%;
+  border-top: 10px solid lightcyan;
+  border-bottom: 10px solid lightcyan;
+  border-right: 7px solid lightcyan;
+  border-left: 7px solid lightcyan;
+}

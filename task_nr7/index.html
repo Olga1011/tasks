@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="div-style">
+      <form action="/path/to/server" method="POST">
+        <div>
+          <label for="yourname">Your Name (required)</label>
+          <input
+            class="width"
+            type="text"
+            id="yourname"
+            name="yourname"
+            placeholder="your name"
+            required
+          />
+        </div>
+        <div>
+          <label for="email"> Your Email (required)</label>
+          <input
+            class="width"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="your email"
+            required
+          />
+        </div>
+        <fieldset>
+          <legend>What's this all about?</legend>
+          <label for="Hello" class="checkbox"
+            ><input
+              class="checkbox input"
+              type="checkbox"
+              id="Hello"
+              name="Hello"
+            />Say Hello</label
+          >
+
+          <label for="Complain" class="checkbox">
+            <input
+              class="checkbox input"
+              type="checkbox"
+              id="Complain"
+              name="Complain"
+            />Complain</label
+          >
+
+          <label for="Joke" class="checkbox"
+            ><input
+              class="checkbox input"
+              type="checkbox"
+              id="Joke"
+              name="Share a joke"
+            />Share a joke</label
+          >
+        </fieldset>
+        <div>
+          <label for="Subject"> Subject</label>
+          <select class="width" name="subject" id="Subject">
+            <option value="subject">Please select the subject</option>
+            <option value="login">I have trouble with the login</option>
+            <option value="photo">I can't upload photos</option>
+            <option value="password">I forgot my password</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Your Message </label>
+          <textarea
+            name="your message"
+            id="message"
+            cols="50"
+            rows="10"
+          ></textarea>
+        </div>
+        <input
+          type="submit"
+          value="SEND"
+          formnovalidate="formnovalidate"
+          class="send"
+        />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+thead {
+  background-color: red;
+  width: 100%;
+  visibility: collapse;
+}
+
+td {
+  height: 25%;
+  text-align: center;
+  color: white;
+}
+
+.grey {
+  background-color: #8cb8ae;
+}
