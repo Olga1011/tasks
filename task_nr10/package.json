@@ -1,0 +1,16 @@
+{
+  "name": "task_nr10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass ./index.scss ./index.css",
+    "sass:watch": "sass  ./index.scss ./index.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
