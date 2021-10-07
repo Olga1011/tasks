@@ -1,0 +1,23 @@
+.first {
+  background-color: blue;
+  border: 2px solid darkblue;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.second {
+  background-color: green;
+  border: 2px solid darkgreen;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.third {
+  background-color: red;
+  border: 2px solid red;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
