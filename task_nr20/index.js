@@ -1,0 +1,15 @@
+let arr = ["HTML", 11, "javascript", 2, "css", 32, 15];
+arr.push(-1);
+// console.log(arr);
+arr.unshift(1000);
+// console.log(arr);
+arr.splice(3, 1);
+// console.log(arr);
+let newArr = arr.filter((item) => typeof item === "number");
+console.log(newArr);
+let squareArr = newArr.map((item) => item * item);
+console.log(squareArr);
+let max = squareArr.reduce((a, b) => Math.max(a, b));
+console.log(max);
+let min = squareArr.reduce((a, b) => Math.min(a, b));
+console.log(min);
